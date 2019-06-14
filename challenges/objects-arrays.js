@@ -7,22 +7,28 @@
 */
 
 // tyrannosaurus, carnivorous, 7000kg, 12m, Late Cretaceous
+const trex = {name: "tyrannosaurus", diet: "carnivorous", weight: "7000kg", length: "12m", period: "Late Cretaceous"};
 
 // stegosaurus, herbivorous, 2000kg, 9m, Late Jurassic
+const steg = {name: "stegosaurus", diet: "herbivorous", weight: "2000kg", length: "9m", period: "Late Jurrasic"};
 
 // velociraptor, carnivorous, 15kg, 1.8m, Late Cretaceous
+const vel = {name: "velociraptor", diet: "carnivorous", weight: "15kg", length: "1.8m", period: "Late Cretaceous"};
 
 //dinosaur objects
-const dinos = [{name: "tyrannosaurus", diet: "carnivorous", weight: "7000kg", length: "12m", period: "Late Cretaceous"},
-{name: "stegosaurus", diet: "herbivorous", weight: "2000kg", length: "9m", period: "Late Jurrasic"},
-{name: "velociraptor", diet: "carnivorous", weight: "15kg", length: "1.8m", period: "Late Cretaceous"}]
+// const dinos = [
+// {name: "tyrannosaurus", diet: "carnivorous", weight: "7000kg", length: "12m", period: "Late Cretaceous"},
+// {name: "stegosaurus", diet: "herbivorous", weight: "2000kg", length: "9m", period: "Late Jurrasic"},
+// {name: "velociraptor", diet: "carnivorous", weight: "15kg", length: "1.8m", period: "Late Cretaceous"}]
 
-console.log(dinos);
+// console.log(dinos);
 
 // Using your dinosaur objects, log answers to these questions:
 
 // How much did tyrannosaurus weigh?
-console.log();
+const dinoWeight = trex => trex.weight;
+
+console.log(dinoWeight(trex)); 
 
 // What was the diet of a velociraptor?
 console.log();
